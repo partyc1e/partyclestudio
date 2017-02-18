@@ -1,0 +1,143 @@
+@import "https://fonts.googleapis.com/css?family=VT323";
+
+body {
+  position: relative;
+  background: #fff;
+/*   height: 100vh; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'VT323', monospace;}
+
+.canvas {
+  margin: 2% 0 0 0;
+  width: 320px;
+  height: 320px; }
+
+.pixel {
+  width: 20px;
+  height: 20px;
+  float: left;
+/*   box-shadow: 0px 0px 1px #fff; */
+  }
+
+.pixel:nth-child(21),
+.pixel:nth-child(22),
+.pixel:nth-child(23),
+.pixel:nth-child(24),
+.pixel:nth-child(25),
+.pixel:nth-child(26), 
+.pixel:nth-child(27),  
+.pixel:nth-child(28),  
+
+.pixel:nth-child(37),
+.pixel:nth-child(38),
+.pixel:nth-child(39),
+.pixel:nth-child(40),
+.pixel:nth-child(41),
+.pixel:nth-child(42),
+.pixel:nth-child(43),
+.pixel:nth-child(44),
+.pixel:nth-child(53),
+.pixel:nth-child(54),
+.pixel:nth-child(55),
+.pixel:nth-child(58),
+.pixel:nth-child(59),
+.pixel:nth-child(60),
+.pixel:nth-child(69),
+.pixel:nth-child(70),
+.pixel:nth-child(71),
+.pixel:nth-child(74),
+.pixel:nth-child(75),
+.pixel:nth-child(76),
+.pixel:nth-child(85),
+.pixel:nth-child(86),
+.pixel:nth-child(87),
+.pixel:nth-child(90),
+.pixel:nth-child(91),
+.pixel:nth-child(92),
+.pixel:nth-child(101),
+.pixel:nth-child(102),
+.pixel:nth-child(103),
+.pixel:nth-child(104),
+.pixel:nth-child(105),
+.pixel:nth-child(106),
+.pixel:nth-child(107),
+.pixel:nth-child(108),
+.pixel:nth-child(117),
+.pixel:nth-child(118),
+.pixel:nth-child(119),
+.pixel:nth-child(120),
+.pixel:nth-child(121),
+.pixel:nth-child(122),
+.pixel:nth-child(123),
+.pixel:nth-child(124),
+.pixel:nth-child(133),
+.pixel:nth-child(134),
+.pixel:nth-child(135),
+.pixel:nth-child(136),
+.pixel:nth-child(149),
+.pixel:nth-child(150),
+.pixel:nth-child(151),
+.pixel:nth-child(152),
+.pixel:nth-child(165),
+.pixel:nth-child(166),
+.pixel:nth-child(167),
+.pixel:nth-child(168),
+.pixel:nth-child(181),
+.pixel:nth-child(182),
+.pixel:nth-child(183),
+.pixel:nth-child(184),
+.pixel:nth-child(181),
+.pixel:nth-child(197),
+.pixel:nth-child(200),
+.pixel:nth-child(214),
+.pixel:nth-child(216),
+.pixel:nth-child(245),
+.pixel:nth-child(248),
+.pixel:nth-child(100),
+.pixel:nth-child(116),
+.pixel:nth-child(115),
+.pixel:nth-child(97) {
+  background: #000;
+  box-shadow: 0px 0px 1px #fff; }
+
+.canvas-shadow {
+  width: 320px;
+  height: 40px;
+  margin: 10% 0 0 0; }
+
+.pixel-shadow {
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+  width: 20px;
+  height: 20px;
+  float: left;
+  box-shadow: 0px 0px 1px #fff; }
+
+.pixel-shadow:nth-child(2),
+.pixel-shadow:nth-child(4),
+.pixel-shadow:nth-child(5),
+.pixel-shadow:nth-child(6),
+.pixel-shadow:nth-child(7),
+.pixel-shadow:nth-child(8),
+.pixel-shadow:nth-child(9),
+.pixel-shadow:nth-child(10),
+.pixel-shadow:nth-child(11),
+.pixel-shadow:nth-child(21),
+.pixel-shadow:nth-child(22),
+.pixel-shadow:nth-child(23),
+.pixel-shadow:nth-child(24),
+.pixel-shadow:nth-child(10) {
+  background: #000;
+  box-shadow: 0px 0px 1px #fff; }
+
+.description {
+  margin: 0 0 0 0;
+  padding: 10% 0 0 0; }
+
